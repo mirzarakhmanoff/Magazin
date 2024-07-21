@@ -14,7 +14,40 @@
     <link rel="stylesheet" href="./style/main.css" />
   </head>
   <body>
+    <div class="skeleton">
+      <div class="skelteton__main skeleton__anime">
+        <div class="skeleton__nav skeleton__anime"></div>
+        <div class="skeleton__divs">
+          <div class="skeleton__right skeleton__anime"></div>
+          <div class="skeleton__left skeleton__anime"></div>
+        </div>
+      </div>
+
+      <div class="skeleton__watchs skeleton__anime">
+        <div class="skeleton__watch skeleton__anime">
+          <div class="watch__img skeleton__anime"></div>
+          <div class="watch__title skeleton__anime"></div>
+        </div>
+        <div class="skeleton__watch skeleton__anime">
+          <div class="watch__img skeleton__anime"></div>
+          <div class="watch__title skeleton__anime"></div>
+        </div>
+        <div class="skeleton__watch skeleton__anime">
+          <div class="watch__img skeleton__anime"></div>
+          <div class="watch__title skeleton__anime"></div>
+        </div>
+      </div>
+    </div>
     <nav class="navbar container">
+      <div class="toggle">
+        <ul class="toggle__ul">
+          <li class="item">Home</li>
+          <li class="item">Brands</li>
+          <li class="item">Recent Products</li>
+          <li class="item">Contact</li>
+          <li class="item">About</li>
+        </ul>
+      </div>
       <div class="navbar__logo">
         <img
           class="navbar__apple"
@@ -113,91 +146,14 @@
             <p class="product__parapgraph">Find your favourite smart watch.</p>
             <h3 class="product__heading">Our Latest Products</h3>
           </div>
-          <div class="product__wrappers container">
-            <div class="wrapper">
-              <div class="smart__img">
-                <img src="./pictures/smarwatch 1.svg" alt="" />
-              </div>
-              <div>
-                <p class="img__heading">Apple Smart I</p>
-                <img class="stars" src="./pictures/stars.svg" alt="" />
-                <div>
-                  <s class="strike">$300.00</s>
-                  <b class="bold">$255.00</b>
-                </div>
-              </div>
-            </div>
-            <div class="wrapper">
-              <div class="smart__img">
-                <img src="./pictures/smarwatch 2.svg" alt="" />
-              </div>
-              <div>
-                <p class="img__heading">Apple Smart II</p>
-                <img class="stars" src="./pictures/stars.svg" alt="" />
-                <div>
-                  <s class="strike">$300.00</s>
-                  <b class="bold">$255.00</b>
-                </div>
-              </div>
-            </div>
-            <div class="wrapper">
-              <div class="smart__img">
-                <img src="./pictures/smarwatch 3.svg" alt="" />
-              </div>
-              <div>
-                <p class="img__heading">Apple Smart III</p>
-                <img class="stars" src="./pictures/stars.svg" alt="" />
-                <div>
-                  <s class="strike">$300.00</s>
-                  <b class="bold">$255.00</b>
-                </div>
-              </div>
-            </div>
-            <div class="wrapper">
-              <div class="smart__img">
-                <img src="./pictures/smarwatch 4.svg" alt="" />
-              </div>
-              <div>
-                <p class="img__heading">Apple Smart IV</p>
-                <img class="stars" src="./pictures/stars.svg" alt="" />
-                <div>
-                  <s class="strike">$450.00</s>
-                  <b class="bold">$399.00</b>
-                </div>
-              </div>
-            </div>
-            <div class="wrapper">
-              <div class="smart__img">
-                <img src="./pictures/smarwatch pro.svg" alt="" />
-              </div>
-              <div>
-                <p class="img__heading">Samsung Watch Pro</p>
-                <img class="stars" src="./pictures/stars.svg" alt="" />
-                <div>
-                  <s class="strike">$300.00</s>
-                  <b class="bold">$255.00</b>
-                </div>
-              </div>
-            </div>
-            <div class="wrapper">
-              <div class="smart__img">
-                <img src="./pictures/fitbit1.svg" alt="" />
-              </div>
-              <div>
-                <p class="img__heading">Fitbit Max I</p>
-                <img class="stars" src="./pictures/stars.svg" alt="" />
-                <div>
-                  <b class="bold">$155.00</b>
-                </div>
-              </div>
-            </div>
-
-            <!-- <div class="wrapper"></div>
-                    <div class="wrapper"></div>
-                    <div class="wrapper"></div>
-                    <div class="wrapper"></div>
-                    <div class="wrapper"></div> -->
+          <div class="categories">
+            <ul class="collection">
+              <li class="item">
+                <data class="data-button" value="">All</data>
+              </li>
+            </ul>
           </div>
+          <div class="product__wrappers container"></div>
           <div>
             <button class="product__btn">View More</button>
           </div>
@@ -252,7 +208,7 @@
           </div>
         </div>
       </section>
-      <section class="subscribe">
+      <section class="subscribe container">
         <div class="subscribe__body">
           <div class="subscribe__tect">
             <h2 class="subscribe__heading">Subscribe To Newsletter</h2>
@@ -275,46 +231,12 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer container">
       <div class="footer__body">
         <p class="footer__text">Copyright @ 2022 | Mohid</p>
       </div>
     </footer>
 
-    <!-- 
-    <section class="products">
-        <div class="product__body container">
-            <div>
-                <p class="product__parapgraph">Find your favourite smart watch.</p>
-                <h2 class="product__heading">Our Latest Products</h2>
-            </div>
-            <div class="smartwatches">
-                <div class="wrapper">
-                    <div class="smartwatch__img">
-                        <img src="./pictures/smarwatch 1.svg" alt="">
-                    </div>
-                    <h3 class="img__heading">Apple Smart I</h3>
-                    <img class="stars" src="./pictures/stars.svg" alt="">
-                    <div class="smart__price">
-                        <s class="strike">$300.00</s>
-                        <b class="bold">$255.00</b>
-                    </div>
-                <div class="wrapper">
-                    <div class="smartwatch__img">
-                        <img src="./pictures/smarwatch 1.svg" alt="">
-                    </div>
-                    <h3 class="img__heading">Apple Smart I</h3>
-                    <img class="stars" src="./pictures/stars.svg" alt="">
-                    <div class="smart__price">
-                        <s class="strike">$300.00</s>
-                        <b class="bold">$255.00</b>
-                    </div>
-                </div>
-            </div>
-           <div>
-            <button class="product__btn">View More</button>
-           </div>
-        </div>
-    </section> -->
+    <script src="./script.js"></script>
   </body>
 </html>
