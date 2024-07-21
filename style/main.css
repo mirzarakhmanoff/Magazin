@@ -585,11 +585,9 @@
 
 .skeleton {
   width: 100%;
-  max-width: 1390px;
   padding: 0 16px;
   margin: 0 auto;
   position: absolute;
-  margin-left: 30px;
 }
 .skeleton__nav {
   width: 100%;
